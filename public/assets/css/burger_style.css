@@ -1,0 +1,41 @@
+body, html {
+    min-height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url("../img/burger_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+
+h1, h2, h4 {
+    font-family: 'Frijole', cursive;
+}
+
+li {
+    padding: 5px;
+    margin: 5px;
+    margin-left: 0;
+  }
+
+li, p, button, form {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+  
+.label {
+    font-weight: bold;
+}
